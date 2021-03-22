@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mylibrary.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black">
+
+
+        <com.example.mylibrary.FloatingActionButton
+            android:id="@+id/action_a"
+            fab:fab_icon="@drawable/ditu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed" />
+
+        <com.example.mylibrary.FloatingActionButton
+            android:id="@+id/action_b"
+            fab:fab_icon="@drawable/gongzuotai_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed" />
+
+        <com.example.mylibrary.FloatingActionButton
+            android:id="@+id/action_c"
+            fab:fab_icon="@drawable/b02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed" />
+
+    </com.example.mylibrary.FloatingActionsMenu>
+
+</RelativeLayout>
