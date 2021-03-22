@@ -1,2 +1,2 @@
 # LinePathView
-this is a view what you can paint
+this is a FloatingActionButton
